@@ -1,0 +1,418 @@
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking whether gcc understands -c and -o together... yes
+checking how to run the C preprocessor... gcc -E
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for egrep... /usr/bin/grep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking minix/config.h usability... no
+checking minix/config.h presence... no
+checking for minix/config.h... no
+checking whether it is safe to define __EXTENSIONS__... yes
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /usr/bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports the include directive... yes (GNU style)
+checking whether make supports nested variables... yes
+checking dependency style of gcc... gcc3
+checking whether make supports nested variables... (cached) yes
+checking for gcc... (cached) gcc
+checking whether we are using the GNU C compiler... (cached) yes
+checking whether gcc accepts -g... (cached) yes
+checking for gcc option to accept ISO C89... (cached) none needed
+checking whether gcc understands -c and -o together... (cached) yes
+checking for g++... g++
+checking whether we are using the GNU C++ compiler... yes
+checking whether g++ accepts -g... yes
+checking dependency style of g++... gcc3
+checking how to run the C preprocessor... gcc -E
+checking for gawk... (cached) gawk
+checking whether ln -s works... yes
+checking for g++... yes
+checking for ar... ar
+checking the archiver (ar) interface... ar
+checking for inline... inline
+checking AM_CFLAGS for maximum warnings... -Wall
+checking AM_CXXFLAGS for maximum warnings... -Wall
+checking errno.h usability... yes
+checking errno.h presence... yes
+checking for errno.h... yes
+checking fcntl.h usability... yes
+checking fcntl.h presence... yes
+checking for fcntl.h... yes
+checking getopt.h usability... yes
+checking getopt.h presence... yes
+checking for getopt.h... yes
+checking limits.h usability... yes
+checking limits.h presence... yes
+checking for limits.h... yes
+checking locale.h usability... yes
+checking locale.h presence... yes
+checking for locale.h... yes
+checking malloc.h usability... yes
+checking malloc.h presence... yes
+checking for malloc.h... yes
+checking netdb.h usability... yes
+checking netdb.h presence... yes
+checking for netdb.h... yes
+checking sgtty.h usability... yes
+checking sgtty.h presence... yes
+checking for sgtty.h... yes
+checking stddef.h usability... yes
+checking stddef.h presence... yes
+checking for stddef.h... yes
+checking termio.h usability... yes
+checking termio.h presence... yes
+checking for termio.h... yes
+checking termios.h usability... yes
+checking termios.h presence... yes
+checking for termios.h... yes
+checking values.h usability... yes
+checking values.h presence... yes
+checking for values.h... yes
+checking arpa/inet.h usability... yes
+checking arpa/inet.h presence... yes
+checking for arpa/inet.h... yes
+checking dev/ppbus/ppbconf.hdev/ppbus/ppi.h usability... no
+checking dev/ppbus/ppbconf.hdev/ppbus/ppi.h presence... no
+checking for dev/ppbus/ppbconf.hdev/ppbus/ppi.h... no
+checking linux/hidraw.h usability... yes
+checking linux/hidraw.h presence... yes
+checking for linux/hidraw.h... yes
+checking linux/ioctl.h usability... yes
+checking linux/ioctl.h presence... yes
+checking for linux/ioctl.h... yes
+checking linux/parport.h usability... yes
+checking linux/parport.h presence... yes
+checking for linux/parport.h... yes
+checking linux/ppdev.h usability... yes
+checking linux/ppdev.h presence... yes
+checking for linux/ppdev.h... yes
+checking netinet/in.h usability... yes
+checking netinet/in.h presence... yes
+checking for netinet/in.h... yes
+checking sys/ioccom.h usability... no
+checking sys/ioccom.h presence... no
+checking for sys/ioccom.h... no
+checking sys/ioctl.h usability... yes
+checking sys/ioctl.h presence... yes
+checking for sys/ioctl.h... yes
+checking sys/param.h usability... yes
+checking sys/param.h presence... yes
+checking for sys/param.h... yes
+checking sys/socket.h usability... yes
+checking sys/socket.h presence... yes
+checking for sys/socket.h... yes
+checking for sys/stat.h... (cached) yes
+checking sys/time.h usability... yes
+checking sys/time.h presence... yes
+checking for sys/time.h... yes
+checking sys/select.h usability... yes
+checking sys/select.h presence... yes
+checking for sys/select.h... yes
+checking glob.h usability... yes
+checking glob.h presence... yes
+checking for glob.h... yes
+checking build system type... x86_64-pc-linux-gnu
+checking host system type... x86_64-pc-linux-gnu
+checking ws2tcpip.h usability... no
+checking ws2tcpip.h presence... no
+checking for ws2tcpip.h... no
+checking wspiapi.h usability... no
+checking wspiapi.h presence... no
+checking for wspiapi.h... no
+checking whether time.h and sys/time.h may both be included... yes
+checking for library containing nanosleep... none required
+checking pthread.h usability... yes
+checking pthread.h presence... yes
+checking for pthread.h... yes
+checking for sys/types.h... (cached) yes
+checking windows.h usability... no
+checking windows.h presence... no
+checking for windows.h... no
+checking for winioctl.h... no
+checking for winbase.h... no
+checking for getopt... yes
+checking for getopt_long... yes
+checking for usleep... yes
+checking for sleep... yes
+checking for nanosleep... yes
+checking for gettimeofday... yes
+checking for struct timezone... yes
+checking for ssize_t... yes
+checking for getopt... (cached) yes
+checking for getopt_long... (cached) yes
+checking for usleep... (cached) yes
+checking for gettimeofday... (cached) yes
+checking for Sleep... no
+checking for a sed that does not truncate output... /usr/bin/sed
+checking whether gcc is Clang... no
+checking whether pthreads work with -pthread... yes
+checking for joinable pthread attribute... PTHREAD_CREATE_JOINABLE
+checking whether more special flags are required for pthreads... no
+checking for PTHREAD_PRIO_INHERIT... yes
+checking POSIX termios... yes
+checking for size_t... yes
+checking whether time.h and sys/time.h may both be included... (cached) yes
+checking for siginfo_t... yes
+checking for sig_atomic_t... yes
+checking for sin... no
+checking for connect... yes
+checking for gethostbyname... yes
+checking for gethostbyname... (cached) yes
+checking for struct addrinfo... yes
+checking whether gai_strerror is declared... yes
+checking for getaddrinfo... (cached) yes
+checking for cfmakeraw... yes
+checking for floor... no
+checking for getpagesize... yes
+checking for getpagesize... (cached) yes
+checking for gettimeofday... (cached) yes
+checking for inet_ntoa... yes
+checking for ioctl... yes
+checking for memchr... yes
+checking for memmove... yes
+checking for memset... yes
+checking for pow... no
+checking for rint... no
+checking for select... yes
+checking for setitimer... yes
+checking for setlocale... yes
+checking for sigaction... yes
+checking for signal... yes
+checking for snprintf... yes
+checking for socket... yes
+checking for sqrt... no
+checking for strchr... yes
+checking for strdup... yes
+checking for strerror... yes
+checking for strncasecmp... yes
+checking for strrchr... yes
+checking for strstr... yes
+checking for strtol... yes
+checking for glob... yes
+checking for socketpair... yes
+checking for working alloca.h... yes
+checking for alloca... yes
+checking how to print strings... printf
+checking for a sed that does not truncate output... (cached) /usr/bin/sed
+checking for fgrep... /usr/bin/grep -F
+checking for ld used by gcc... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking the maximum length of command line arguments... 1572864
+checking how to convert x86_64-pc-linux-gnu file names to x86_64-pc-linux-gnu format... func_convert_file_noop
+checking how to convert x86_64-pc-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for /usr/bin/ld option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for dlltool... no
+checking how to associate runtime and link libraries... printf %s\n
+checking for archiver @FILE support... @
+checking for strip... strip
+checking for ranlib... ranlib
+checking command to parse /usr/bin/nm -B output from gcc object... ok
+checking for sysroot... no
+checking for a working dd... /usr/bin/dd
+checking how to truncate binary pipes... /usr/bin/dd bs=4096 count=1
+checking for mt... mt
+checking if mt is a manifest tool... no
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if gcc supports -fno-rtti -fno-exceptions... no
+checking for gcc option to produce PIC... -fPIC -DPIC
+checking if gcc PIC flag -fPIC -DPIC works... yes
+checking if gcc static flag -static works... yes
+checking if gcc supports -c -o file.o... yes
+checking if gcc supports -c -o file.o... (cached) yes
+checking whether the gcc linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... yes
+checking how to run the C++ preprocessor... g++ -E
+checking for ld used by g++... /usr/bin/ld -m elf_x86_64
+checking if the linker (/usr/bin/ld -m elf_x86_64) is GNU ld... yes
+checking whether the g++ linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking for g++ option to produce PIC... -fPIC -DPIC
+checking if g++ PIC flag -fPIC -DPIC works... yes
+checking if g++ static flag -static works... yes
+checking if g++ supports -c -o file.o... yes
+checking if g++ supports -c -o file.o... (cached) yes
+checking whether the g++ linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking dynamic linker characteristics... (cached) GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether C99 struct/array initializers are supported... yes
+checking whether to build USB dependent backends... yes
+checking for libusb_init in -lusb-1.0... yes
+checking libusb.h usability... no
+checking libusb.h presence... no
+checking for libusb.h... no
+checking libusb-1.0/libusb.h usability... yes
+checking libusb-1.0/libusb.h presence... yes
+checking for libusb-1.0/libusb.h... yes
+checking whether to use readline in rigctl/rotctl... yes
+checking for a readline compatible library... -lreadline
+checking readline.h usability... no
+checking readline.h presence... no
+checking for readline.h... no
+checking readline/readline.h usability... yes
+checking readline/readline.h presence... yes
+checking for readline/readline.h... yes
+checking whether readline supports history... yes
+checking history.h usability... no
+checking history.h presence... no
+checking for history.h... no
+checking readline/history.h usability... yes
+checking readline/history.h presence... yes
+checking for readline/history.h... yes
+checking whether to use INDI in rigctl/rotctl... checking whether to build HTML rig feature matrix... check
+checking gd.h usability... yes
+checking gd.h presence... yes
+checking for gd.h... yes
+checking for gdImageCreate in -lgd... yes
+checking whether to build rigmem XML support... no
+checking whether to build USRP backend... no
+checking whether to build C++ binding... yes
+checking whether to build perl binding... no
+checking whether to build python binding... yes
+checking for python3.8... /usr/bin/python3.8
+checking for a version of Python >= '2.1.0'... yes
+checking for the distutils Python package... yes
+checking for Python include path... -I/usr/include/python3.8
+checking for Python library path... -L/usr/lib -lpython3.8
+checking for Python site-packages path... /usr/lib/python3/dist-packages
+checking python extra libraries... -lcrypt -lpthread -ldl  -lutil -lm -lm
+checking python extra linking flags... -Xlinker -export-dynamic -Wl,-O1 -Wl,-Bsymbolic-functions
+checking consistency of all components of python development environment... yes
+checking whether /usr/bin/python3.8 version is >= 2.1... yes
+checking for /usr/bin/python3.8 version... 3.8
+checking for /usr/bin/python3.8 platform... linux
+checking for /usr/bin/python3.8 script directory... ${prefix}/lib/python3.8/site-packages
+checking for /usr/bin/python3.8 extension module directory... ${exec_prefix}/lib/python3.8/site-packages
+checking Whether to build Tcl bindings... no
+checking whether to build lua binding... no
+checking for swig... /usr/bin/swig
+checking SWIG version... 4.0.1
+checking for SWIG library... /usr/share/swig4.0
+checking whether to build bindings... yes
+checking whether to build winradio backend... yes
+checking for dlopen in -ldl... yes
+checking for dlfcn.h... (cached) yes
+Build_OS is linux-gnu
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating macros/Makefile
+config.status: creating include/Makefile
+config.status: creating lib/Makefile
+config.status: creating src/Makefile
+config.status: creating c++/Makefile
+config.status: creating bindings/Makefile
+config.status: creating doc/Makefile
+config.status: creating doc/hamlib.cfg
+config.status: creating rotators/amsat/Makefile
+config.status: creating rotators/ars/Makefile
+config.status: creating rotators/celestron/Makefile
+config.status: creating rotators/cnctrk/Makefile
+config.status: creating rotators/easycomm/Makefile
+config.status: creating rotators/ether6/Makefile
+config.status: creating rotators/fodtrack/Makefile
+config.status: creating rotators/gs232a/Makefile
+config.status: creating rotators/heathkit/Makefile
+config.status: creating rotators/ioptron/Makefile
+config.status: creating rotators/m2/Makefile
+config.status: creating rotators/meade/Makefile
+config.status: creating rotators/prosistel/Makefile
+config.status: creating rotators/rotorez/Makefile
+config.status: creating rotators/sartek/Makefile
+config.status: creating rotators/spid/Makefile
+config.status: creating rotators/ts7400/Makefile
+config.status: creating rotators/indi/Makefile
+config.status: creating rotators/satel/Makefile
+config.status: creating rigs/adat/Makefile
+config.status: creating rigs/alinco/Makefile
+config.status: creating rigs/aor/Makefile
+config.status: creating rigs/barrett/Makefile
+config.status: creating rigs/dorji/Makefile
+config.status: creating rigs/drake/Makefile
+config.status: creating rigs/dummy/Makefile
+config.status: creating rigs/elad/Makefile
+config.status: creating rigs/flexradio/Makefile
+config.status: creating rigs/icmarine/Makefile
+config.status: creating rigs/icom/Makefile
+config.status: creating rigs/jrc/Makefile
+config.status: creating rigs/kachina/Makefile
+config.status: creating rigs/kenwood/Makefile
+config.status: creating rigs/kit/Makefile
+config.status: creating rigs/lowe/Makefile
+config.status: creating rigs/pcr/Makefile
+config.status: creating rigs/prm80/Makefile
+config.status: creating rigs/racal/Makefile
+config.status: creating rigs/rft/Makefile
+config.status: creating rigs/rs/Makefile
+config.status: creating rigs/skanti/Makefile
+config.status: creating rigs/tapr/Makefile
+config.status: creating rigs/tentec/Makefile
+config.status: creating rigs/tuner/Makefile
+config.status: creating rigs/uniden/Makefile
+config.status: creating rigs/winradio/Makefile
+config.status: creating rigs/wj/Makefile
+config.status: creating rigs/yaesu/Makefile
+config.status: creating tests/Makefile
+config.status: creating scripts/Makefile
+config.status: creating android/Makefile
+config.status: creating amplifiers/elecraft/Makefile
+config.status: creating hamlib.pc
+config.status: creating include/config.h
+config.status: executing depfiles commands
+config.status: executing libtool commands
+----------------------------------------------------------------------
+
+ Hamlib Version 4.2~git configuration:
+
+ Prefix 	/usr/local
+ Preprocessor	gcc -E 
+ C Compiler	gcc -g -O2
+ C++ Compiler	g++ -g -O2
+
+ Package features:
+    With C++ binding		    yes
+    With Perl binding		    no
+    With Python binding 	    yes
+    With TCL binding		    no
+    With Lua binding		    no
+    With rigmem XML support	    no
+    With Readline support	    yes
+    With INDI support		    no
+
+    Enable HTML rig feature matrix  yes
+    Enable WinRadio		    yes
+    Enable USRP 		    no
+    Enable USB backends 	    yes
+    Enable shared libs		    yes
+    Enable static libs		    yes
+
+-----------------------------------------------------------------------

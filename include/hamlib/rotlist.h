@@ -603,7 +603,19 @@
 //! @endcond
 #define ROT_MODEL_SATEL ROT_MAKE_MODEL(ROT_SATEL, 1)
 
-
+/**
+ * \brief A macro that returns the model number of the ONSTEP backend.
+ *
+ * \def ROT_MODEL_ONSTEP
+ *
+ * The ONSTEP backend can be used with ONSTEP telescope rotators like the
+ * DS-2000.
+ */
+//! @cond Doxygen_Suppress
+#define ROT_ONSTEP 22
+#define ROT_BACKEND_ONSTEP "onstep"
+//! @endcond
+#define ROT_MODEL_ONSTEP ROT_MAKE_MODEL(ROT_ONSTEP, 1)
 
 
 /**
